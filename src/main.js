@@ -1,10 +1,34 @@
 function sortByName(arr) {
-    var result = arr.slice(0);
-    result.sort(function(a, b) {
-      return a.name.localCompare(b.name);
-    });
-    return result;
-  }
+  var result = arr.slice(0);
+  result.sort(function(a, b) {
+    return a.name.localCompare(b.name);
+  });
+  return result;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   // interface Person {
   //   name: string;
