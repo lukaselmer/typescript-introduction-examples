@@ -1,6 +1,6 @@
 {
   "name": "typescript-code-examples",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "src/main.js",
   "scripts": {
@@ -8,5 +8,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Lukas Elmer <lukas.elmer@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "react": "^16.9.0",
+    "typescript": "^3.6.3"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.2"
+  }
 }
